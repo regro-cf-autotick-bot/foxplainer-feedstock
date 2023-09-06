@@ -1,5 +1,5 @@
 {% set name = "foxplainer" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.7" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 143e9bd95639d61a97b46190e42f2caafcd8f5353b6de6568e7759764ccd48e2
+  sha256: 2a697d92ceee947c72fce79a7a7d637bf0df967ebdd0a9c011cbcecfcddc7609
 
 build:
   number: 0
