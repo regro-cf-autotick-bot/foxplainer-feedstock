@@ -1,11 +1,11 @@
-About foxplainer
-================
+About foxplainer-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/foxplainer-feedstock/blob/main/LICENSE.txt)
 
 Home: The package home page
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/foxplainer-feedstock/blob/main/LICENSE.txt)
 
 Summary: FoX: a Fo rmal eX plainer for JIT Defect Prediction
 
