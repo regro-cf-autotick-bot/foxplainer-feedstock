@@ -10,14 +10,14 @@ source:
   sha256: 143e9bd95639d61a97b46190e42f2caafcd8f5353b6de6568e7759764ccd48e2
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - poetry
 
   run:
@@ -25,11 +25,13 @@ requirements:
     - ipywidgets >=7.7.1
     - numpy >=1.23.2
     - pandas >=1.4.3
-    - python >=3.8
+    - python >={{ python_min }}
     - scikit-learn >=1.1.2
     - six >=1.16.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - foxplainer
 
